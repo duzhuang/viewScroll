@@ -85,8 +85,8 @@ export default class ListViewCtr extends cc.Component {
     setPointer() {
         this._leftPointer = 0;
         this._rightPointer = 5;
-        console.log("左侧指针",this._leftPointer);
-        console.log("右侧指针",this._rightPointer);
+        // console.log("左侧指针",this._leftPointer);
+        // console.log("右侧指针",this._rightPointer);
     }
     /**减小 左侧指针 */
     reduceLeftPointer() {
@@ -95,7 +95,7 @@ export default class ListViewCtr extends cc.Component {
         } else {
             this._leftPointer--;
         }
-        console.log("左侧指针",this._leftPointer);
+        // console.log("左侧指针",this._leftPointer);
     }
     /**增加 左侧指针 */
     addLeftPointer(){
@@ -104,7 +104,7 @@ export default class ListViewCtr extends cc.Component {
         } else {
             this._leftPointer++;
         }
-        console.log("左侧指针",this._leftPointer);
+        // console.log("左侧指针",this._leftPointer);
     }
     /**增加  右侧指针 */
     addRightPointer() {
@@ -113,7 +113,7 @@ export default class ListViewCtr extends cc.Component {
         } else {
             this._rightPointer++;
         }
-        console.log("右侧指针",this._rightPointer);
+        //console.log("右侧指针",this._rightPointer);
     }
     /**减小 右侧指针 */
     reduceRightPointer(){
@@ -122,7 +122,7 @@ export default class ListViewCtr extends cc.Component {
         } else {
             this._rightPointer--;
         }
-        console.log("右侧指针",this._rightPointer);
+        //console.log("右侧指针",this._rightPointer);
     }
 
 
